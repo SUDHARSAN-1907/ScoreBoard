@@ -17,7 +17,7 @@ public class javaconnect {
         Connection con = null;
         try
         {
-            con =DriverManager.getConnection("jdbc:derby://localhost:1527/Loginpage","score","score");
+            con =DriverManager.getConnection("jdbc:derby://localhost:1527/Scoredata","score","score");
             return con;
         }catch(Exception e)
         {
